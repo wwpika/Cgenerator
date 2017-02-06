@@ -34,7 +34,7 @@ def pasteWord(words):
 		else:
 			paste(text,font,imgName)
 
-def paste(text,font,imgName,area=(50,30)):
+def paste(text,font,imgName,area=(50,30)):#area:坐标
 	#PIL.Image.new(mode, size, color=0):Creates a new image with the given mode and size
 	im=Image.new('RGB',(100,100),(255,255,255))
 	#render(text, antialias, color, background=None):draw text on a new Surface
