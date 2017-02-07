@@ -22,9 +22,9 @@ def pasteWord(words):
 	length=len(text_list)
 	for i in range(length):
 		#对文字进行解码
-
+		print 'text_list[i]:'
+		print text_list[i]
 		text=text_list[i].decode('utf-8')
-		
 		print text
 		imgName=text+'.png'
 		print imgName
